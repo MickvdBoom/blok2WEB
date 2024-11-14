@@ -46,7 +46,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="2e-deel-pag-1.jpg" width="300px" alt="eerste pagina foto een">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Overzicht herenmode 
+  Overzicht herenmode
+  
  <img src="Scherm­afbeelding 2024-11-14 om 10.24.10.jpg" width="300px" alt="omschrijving van de pagina">
  <img src="Scherm­afbeelding 2024-11-14 om 10.24.21.jpg" width="300px" alt="tweede pagina foto twee">
  <img src="Scherm­afbeelding 2024-11-14 om 10.24.35.jpg" width="300px" alt="tweede pagina foto twee">
