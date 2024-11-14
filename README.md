@@ -42,6 +42,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
+  <img src="1e-deel-pag-1.jpg" width="375px" alt="eerste pagina foto een">
+  <img src="2e-deel-pag-1.jpg" width="375px" alt="eerste pagina foto een">
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
