@@ -38,7 +38,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
- https://www.debijenkorf.nl/)
+ https://www.debijenkorf.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
@@ -46,8 +46,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
- 
+  <img src="readme-images/1e-deel-pag-1.png" width="375px" alt="eerste pagina foto een">
+  <img src="readme-images/2e-deel-pag-1.png" width="375px" alt="eerste pagina foto een">
 </details>
 
 
