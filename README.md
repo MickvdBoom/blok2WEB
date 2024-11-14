@@ -43,15 +43,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de eerste pagina (small screen): 
   Detailpagina van product  
   
-  <img src="1e-deel-pag-1.jpg" width="300px" alt="eerste pagina foto een">
-  <img src="2e-deel-pag-1.jpg" width="300px" alt="eerste pagina foto een">
+  <img src="1e-deel-pag-1.jpg" width="200px" alt="eerste pagina foto een">
+  <img src="2e-deel-pag-1.jpg" width="200px" alt="eerste pagina foto een">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Overzicht herenmode
   
- <img src="Scherm­afbeelding 2024-11-14 om 10.24.10.jpg" width="300px" alt="omschrijving van de pagina">
- <img src="Scherm­afbeelding 2024-11-14 om 10.24.21.jpg" width="300px" alt="tweede pagina foto twee">
- <img src="Scherm­afbeelding 2024-11-14 om 10.24.35.jpg" width="300px" alt="tweede pagina foto twee">
+ <img src="Scherm­afbeelding 2024-11-14 om 10.24.10.jpg" width="200px" alt="omschrijving van de pagina">
+ <img src="Scherm­afbeelding 2024-11-14 om 10.24.21.jpg" width="200px" alt="tweede pagina foto twee">
+ <img src="Scherm­afbeelding 2024-11-14 om 10.24.35.jpg" width="200px" alt="tweede pagina foto twee">
 </details>
 
 
