@@ -42,6 +42,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Detailpagina van product  
+  
   <img src="1e-deel-pag-1.jpg" width="300px" alt="eerste pagina foto een">
   <img src="2e-deel-pag-1.jpg" width="300px" alt="eerste pagina foto een">
 
