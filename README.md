@@ -49,9 +49,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de tweede pagina (small screen):
   Overzicht herenmode
   
- <img src="readme-images/1e-deel-pag-2" width="200px" alt="omschrijving van de pagina">
- <img src="readme-images/2e-deel-pag-2" width="200px" alt="tweede pagina foto twee">
- <img src="readme-images/3e-deel-pag-2" width="200px" alt="tweede pagina foto twee">
+ <img src="readme-images/1e-deel-pag-2.jpg" width="200px" alt="omschrijving van de pagina">
+ <img src="readme-images/2e-deel-pag-2.jpg" width="200px" alt="tweede pagina foto twee">
+ <img src="readme-images/3e-deel-pag-2.jpg" width="200px" alt="tweede pagina foto twee">
 </details>
 
 
