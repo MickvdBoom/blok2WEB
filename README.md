@@ -42,6 +42,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Detailpagina van product  
+  
   https://www.debijenkorf.nl/tommy-hilfiger-vintage-t-shirt-met-logo-en-backprint-7560013961-756001396100000
   
   <img src="readme-images/1e-deel-pag-1.jpg" width="200px" alt="eerste pagina foto een">
@@ -49,6 +50,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Overzicht herenmode
+  
   https://www.debijenkorf.nl/herenmode
   
  <img src="readme-images/1e-deel-pag-2.jpg" width="200px" alt="omschrijving van de pagina">
