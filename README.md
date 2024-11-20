@@ -69,8 +69,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
   
 WCAG
+
 Website: debijenkorf.nl 
+
 Naam: Mick van den Boom
+
 Test: 1
 
 Content
