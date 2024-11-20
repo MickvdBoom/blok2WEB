@@ -220,8 +220,8 @@ Opmerkingen color contrast
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/breakdown-schets-1.png" width="200px" alt="breakdown van de eerste pagina">
-  <img src="readme-images/breakdown-schets-2.png" width="200px" alt="breakdown van de tweede pagina">
+  <img src="readme-images/breakdown-schets-1.png" width="400px" alt="breakdown van de eerste pagina">
+  <img src="readme-images/breakdown-schets-2.png" width="400px" alt="breakdown van de tweede pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
