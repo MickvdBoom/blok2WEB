@@ -83,7 +83,7 @@ Content
 Opmerkingen content
 1. Goede omschrijvingen van producten en andere onderdelen. Net verwoord maar niet te ingewikkeld. Op de homepagina staat bij het deel van de wintercollectie de tekst “Pak dit seizoen groots uit met wollen winteritems die jouw unieke stijl weerspiegelen”, deze tekst kan natuurlijk duidelijker maar hier is bewust voor gekozen omdat de bijenkorf een wat duurdere en exclusievere sfeer af wilt geven door wat duurdere en lastigere woorden te gebruiken.
 2. Het spreekt bij een kledingwinkel voor zich wat je kiest als je op mannen of vrouwen klikt. Toch zijn deze knoppen redelijk kortaf aangezien ze niet een duidelijk make wat je gaat zien. Als ik verder naar beneden scroll kom ik aan bij het onderdeel met de FAQ, bestellingen volgen en hulp vragen. Dit deel is duidelijker. De knoppen hier zeggen dingen zoals “bekijk veelgestelde vragen” en “volg je bestelling”. De knoppen op de site verschillen dus, een deel is te direct en een deel is duidelijk.
-   
+<br>
 <br>
 
 Global code
@@ -97,7 +97,8 @@ Opmerkingen global code
 2. Er is gebruikt gemaakt van het lang attribuut, de taal is ingesteld op NL-NL.
 3. Iedere pagina bevat een andere titel, als ik op de homepagina de titel bekijk staat er “de Bijenkorf • Mode, Cosmetica & Interieur • Snel in huis”. Als ik vervolgens naar de pagina ga met herenmode veranderd de titel naar “Herenmode • de Bijenkorf • Gratis retourneren”.
 4. De viewport is uitgeschakeld, het is onmogelijk om op mijn telefoon in te zoomen op de site. Op laptop kan dit wel maar het hoort op telefoon uiteraard ook te werken.
-
+<br>
+<br>
 
 Toetsenbord
 1. Zorg voor een duidelijke stijl bij interactieve elementen waarnaar wordt genavigeerd
@@ -106,7 +107,8 @@ Toetsenbord
 Opmerkingen toetsenbord
 1. De geselecteerde elementen worden duidelijk geselecteerd, tijdens het navigeren is het dus duidelijk te zien waar je je begeeft. Het enige opvallende tijdens het navigeren is dat ik vast kwam te zitten toen ik langs de zoekbalk kwam, hierna kan ik niet verder door tab te gebruiken.
 2. De focus volgorde is logisch, iedere keer voordat ik op tab klik kan ik al voorspellen welk element als volgende geselecteerd zal gaan worden.
-   
+<br>
+<br>
 
 Mobiel en aanraking
 1. Bekijk of de site gedraaid kan worden
@@ -119,7 +121,8 @@ Opmerkingen mobiel en aanraking
 2. Het grootste deel van de site bevat geen mogelijkheid om horizontaal te scrollen dus dit is goed. De enige onderdelen waar je horizontaal kan scrollen zijn de overzichten van kleding waar je bijvoorbeeld kan scrollen door recent bekeken of aanbevolen voor jou.
 3. Alle knoppen en links zijn van goede grootte waardoor de site dus goed toegankelijk is op mobiel.
 4. Over het algemeen bevat de site genoeg witruimte, het enige onderdeel waar hier geen sprake van is is bij het begin van iedere pagina waar je moet kiezen tussen de verschillende kleding opties. (Bijvoorbeeld op het homescherm de opties man, vrouw, kinderen, etc), deze vlakken staan te dicht op elkaar en deze sectie bevat nauwelijks witruimte.
-   
+<br>
+<br>
 
 Headings
 1. Gebruik header elementen om nieuwe content te introduceren
@@ -132,14 +135,16 @@ Opmerkingen headings
 2. De website maakt gebruik van maar één h1 element per pagina.
 3. De opbouw van de h1, h2 en h3 elementen die de site bevat zijn logisch verdeelt en zorgen voor een goede structuur.
 4. De site maakt gebruik van h1, h2 en h3 headings, er word dus niks overgeslagen.
-   
+<br>
+<br>
 
 Lists
 1. Maak gebruik van de elementen ol, ul en dl voor content die in een lijst hoort
 
 Opmerkingen lists
 1. De site maakt zeker gebruik van lists. Door te inspecteren heb ik gevonden dat bijvoorbeeld bij de footer gebruik word gemaakt van een unordered list.
-   
+<br>
+<br>
 
 Images
 1. Zorg ervoor dat alle img elementen een alt attribuut hebben
@@ -152,7 +157,8 @@ Opmerkingen images
 2. Op de site word nauwelijks gebruik gemaakt van decoratieve foto’s, de enige foto die ik kon bedenken was de foto van het logo bovenaan de pagina. Nadat ik deze heb opgezocht in de code kon ik geen alt tekst vinden bij deze foto.
 3. Ik heb op de site geen foto’s van mappen of grafieken kunnen vinden. Als deze er wel zouden zijn ga ik ervan uit dat deze ook een alt tekst zouden hebben aangezien de rest dit ook heeft.
 4. De foto’s met tekst erin bevatten geen alt tekst die ook de tekst op de foto omschrijft. Deze tekst wordt apart in de code geschreven.
-   
+<br>
+<br>
 
 Media (video and audio)
 1. Zorg ervoor dat media niet automatisch afspeelt
@@ -165,7 +171,8 @@ Opmerkingen media (video en audio)
 2. De video op het homescherm kan niet gepauzeerd worden.
 3. De video heeft geen ondertiteling maar bevat ook geen geluid.
 4. De website bevat geen audio mogelijkheden en dus ook geen transcriptie.
-   
+<br>
+<br>
 
 Controls
 1. Gebruik een a element voor links
@@ -182,7 +189,8 @@ Opmerkingen controls
 4. Voor de knoppen op de site wordt geen gebruik gemaakt van het button attribuut. Ook de knoppen worden gecodeerd met een a element.
 5. ?
 6. De links die naar een andere tab gaan maken wel duidelijk dat je naar een andere pagina gaat. Bijvoorbeeld bij het bekijken van de locatie van het filiaal in Amsterdam staat de knop “bekijk in Google Maps”, het spreekt dan voor zich dat je een nieuwe tab opent.
-   
+<br>
+<br>
 
 Apprearance
 1. Kijk of light- en dark mode worden ondersteund
@@ -195,7 +203,8 @@ Opmerkingen appearance
 2. ?
 3. De tekstgrootte is aan te passen, alleen zorgt dit er wel voor dat sommige onderdelen van de site in elkaar vallen.
 4. Informatie wordt niet overgebracht via kleur, dit wordt voornamelijk gedaan door middel van verschillende lettergrootten.
-   
+<br>
+<br>
 
 Animation
 1. Zorg ervoor dat animaties subtiel zijn en niet te druk
@@ -206,7 +215,8 @@ Opmerkingen animation
 1. De animatie op het homescherm is erg groot en druk.
 2. De animatie op het homescherm is niet te pauzeren.
 3. ?
-   
+<br>
+<br>
 
 Color contrast
 1. Bekijk het contrast voor alle normale teksten
