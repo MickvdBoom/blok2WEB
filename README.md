@@ -84,7 +84,7 @@ Opmerkingen content
 1. Goede omschrijvingen van producten en andere onderdelen. Net verwoord maar niet te ingewikkeld. Op de homepagina staat bij het deel van de wintercollectie de tekst “Pak dit seizoen groots uit met wollen winteritems die jouw unieke stijl weerspiegelen”, deze tekst kan natuurlijk duidelijker maar hier is bewust voor gekozen omdat de bijenkorf een wat duurdere en exclusievere sfeer af wilt geven door wat duurdere en lastigere woorden te gebruiken.
 2. Het spreekt bij een kledingwinkel voor zich wat je kiest als je op mannen of vrouwen klikt. Toch zijn deze knoppen redelijk kortaf aangezien ze niet een duidelijk make wat je gaat zien. Als ik verder naar beneden scroll kom ik aan bij het onderdeel met de FAQ, bestellingen volgen en hulp vragen. Dit deel is duidelijker. De knoppen hier zeggen dingen zoals “bekijk veelgestelde vragen” en “volg je bestelling”. De knoppen op de site verschillen dus, een deel is te direct en een deel is duidelijk.
    
-
+<br>
 
 Global code
 1. Valideer uw html
