@@ -242,6 +242,7 @@ Opmerkingen color contrast
 
   ### de hele pagina: 
   <img src="readme-images/breakdown-schets-1.png" width="400px" alt="breakdown van de eerste pagina">
+  <br>
   <img src="readme-images/breakdown-schets-2.png" width="400px" alt="breakdown van de tweede pagina">
 
   ### dynamisch deel (bijv menu): 
