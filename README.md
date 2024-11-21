@@ -67,6 +67,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+
+Screenreader
+De site is te bedienen met een screenreader, ik kon in principe alle menu's doort zonder al te grote problemen. Wel zijn er een paar punten van kritiek voor de site. Als je het menu afgaat en je komt langs de zoekbalk dan word deze automatisch opengeklapt, dit leidde er bij mij in een van de tests toe dat ik niet verder kwam. Later lukte het mij wel om hierlangs te navigeren. Daarnaast hebben sommige afbeeldingen geen correcte namen, bij het scrollen over de homepagina kwam ik bijvoorbeeld langs een afbeelding die werd opgelezen als "570x450-50.34377387318559x44.85530546623794, afbeelding", dit is natuurlijk niet de bedoeling en belemmerd mensen met een screenreader enorm. Op deze twee punten na is het mij verder gelukt om de site door te navigeren zonder problemen te ondervinden.
   
 WCAG
 
