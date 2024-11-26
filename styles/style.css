@@ -3,6 +3,7 @@
 /**************/
 :root {
 	--standaardUniek: #F9F7F3;
+	--standaardNormaal: white;
 }
 
 *, *::after, *::before {
@@ -12,13 +13,40 @@
 * {
 	margin: 0;
 }
+
+input {
+	width: 15em;
+}
 p:first-child {
 	text-align: center;
 	background-color: var(--standaardUniek);
 	padding: 0.5em;
 }
 
+.heren-navigatie ul {
+	list-style-type: none;
+	display: flex;
+	gap: 1em;
+	overflow: scroll;
+	padding: 1em;
+}
 
+.heren-navigatie ul li {
+	position: relative;
+}
+
+.heren-navigatie a {
+	position: absolute;
+	text-decoration: none;
+	color: var(--standaardNormaal);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.heren-navigatie ul li img {
+	width: 10em;
+}
 
 
 
