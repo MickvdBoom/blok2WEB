@@ -1,26 +1,68 @@
-/**************/
-/* CSS REMEDY */
-/**************/
 :root {
 	--standaardUniek: #F9F7F3;
 	--standaardNormaal: white;
 }
 
 *, *::after, *::before {
-  box-sizing:border-box;  
+	box-sizing:border-box;  
 }
 
 * {
 	margin: 0;
 }
 
+button {
+	background-color: var(--standaardNormaal);
+	border: 0;
+}
+
+nav {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	translate: -100% 0%;
+	transition: translate .3s;
+	background-color: var(--standaardUniek);
+	z-index: 2;
+}
+
+.toonMenu {
+	translate: 0% 0;
+}
+
+header button {
+	order: -1;
+}
+
 input {
 	width: 15em;
 }
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin: 2em;
+}
+
+.header img {
+	max-width: 6.5em;
+	max-height: 1.8em;
+}
+
 p:first-child {
 	text-align: center;
 	background-color: var(--standaardUniek);
 	padding: 0.5em;
+}
+
+.heren-navigatie {
+	background-color: var(--standaardUniek);
+}
+
+.heren-navigatie h1 {
+	font-size: 2.5em;
 }
 
 .heren-navigatie ul {
@@ -48,23 +90,24 @@ p:first-child {
 	width: 10em;
 }
 
+.winter-selectie {
+	position: relative;
+}
 
+.winter-selectie img {
+	width: 100%;
+}
 
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
+.winter-selectie div{
+	position: absolute;
+	color: var(--standaardNormaal);
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	text-align: center;
+}
+
 :root {
-	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
 }
-
-
-
-
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */

@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html lang="nl">
-	
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<p>Nu besteld, morgen in huis</p>
-	<form>
-		<input type="text" placeholder="Waar ben je naar op zoek?">
-	</form>
-	
-	<title>Herenmode • de Bijenkorf • Gratis retourneren</title>
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
 	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="images/svg+xml" href="images/bijenkorf-logo.png">
+	<link rel="icon" type="images/svg+xml" href="images/bijenkorf-logo.jpg">
+	<title>Herenmode • de Bijenkorf • Gratis retourneren</title>
 </head>
-
+<header>
+	<p>Nu besteld, morgen in huis</p>
+	<section class="header">
+		<button aria-hidden="true"><img src="images/hamBurger.png" alt="" /></button>
+		<nav id="hamburgerMenu">
+			<button aria-hidden="true"><img src="images/sluiten.png" alt="" /></button>
+			<h2>Welkom</h2>
+			<ul>
+				<li><a href="#">Dames</a></li>
+				<li><a href="#">Heren</a></li>
+				<li><a href="#">Kinderen</a></li>
+				<li><a href="#">Cosmetica</a></li>
+				<li><a href="#">Wonen & vrije tijd</a></li>
+				<li><a href="#">Designer</a></li>
+				<li><a href="#">Cadeaus</a></li>
+				<li><a href="#">Outlet</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">Winkels & Openingstijden</a></li>
+				<li><a href="#">klantenservice</a></li>
+			</ul>
+		</nav>
+		<img src="images/basisLogo.png" alt="">
+		<form>
+			<input type="text" placeholder="Waar ben je naar op zoek?">
+		</form>
+		<img src="images/profiel.png" alt="profiel">
+		<img src="images/favorieten.png" alt="favorieten">
+		<img src="images/winkelwagen.png" alt="winkelmandje">
+	</section>
+</header>
 <body>
 	<section class="heren-navigatie">
 		<h1>Ontdek de heren categorieën</h1>
@@ -28,12 +51,14 @@
 			<li><a href="#">Designer</a><img src="images/afbeelding-designer.webp" alt=""></li>
 		</ul>
 	</section>
-	<section>
-		<h3>ECHT UITPAKKEN</h3>
-		<h2>Onze winterselectie</h2>
-		<p>Pak dit seizoen groots uit met wollen winteritems die jouw unieke stijl weerspiegelen</p>
-		<button>Bekijk de selectie</button>
-		<img src="images/afbeelding-onze-feestselecte.webp" alt="">
+	<section class="winter-selectie">
+		<div>
+			<h3>ECHT UITPAKKEN</h3>
+			<h2>Onze winterselectie</h2>
+			<p>Pak dit seizoen groots uit met wollen winteritems die jouw unieke stijl weerspiegelen</p>
+			<button>Bekijk de selectie</button>
+		</div>
+		<img src="images/onze-feestselectie.webp" alt="">
 	</section>
 	<section>
 		<h2>De selecties van onze editors</h2>
