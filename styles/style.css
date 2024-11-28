@@ -155,6 +155,26 @@ header p:first-child {
 	margin: 0.5em;
 }
 
+footer {
+	background-color: var(--standaardUniek);
+}
+
+details {
+	margin-left: 1em;
+	margin-top: 0.5em;
+	margin-bottom: 0.3em;
+}
+
+details {
+	padding-top: 4em;
+}
+
+hr {
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+}
+
 :root {
 	--color-text:#111;
 	--color-background:#eee;
