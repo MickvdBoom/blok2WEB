@@ -280,6 +280,23 @@ header p:first-child {
 	margin-bottom: 1em;
 }
 
+.populaireMerken ul {
+	display: flex;
+	list-style-type: none;
+	overflow: scroll;
+}
+
+.populaireMerken button {
+	background-color: transparent;
+	border: 0;
+}
+
+.populaireMerken img {
+	max-width: 22vw;
+	min-width: 14em;
+	border-radius: 100px;
+}
+
 footer {
 	background-color: var(--standaardUniek);
 }
