@@ -11,8 +11,8 @@
 	margin: 0;
 }
 
-button {
-	background-color: var(--standaardNormaal);
+header button {
+	background-color: transparent;
 	border: 0;
 }
 
@@ -26,6 +26,13 @@ nav {
 	transition: translate .3s;
 	background-color: var(--standaardUniek);
 	z-index: 2;
+}
+
+input {
+	border-top: 2px black;
+	border-left: 2px black;
+	border-right: 2px black;
+	margin-bottom: 2em;
 }
 
 .toonMenu {
@@ -88,10 +95,21 @@ header p:first-child {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	font-size: 1.3em;
 }
 
 .heren-navigatie ul li img {
 	width: 10em;
+}
+
+.winterItems div {
+	padding-top: 2em;
+	padding-bottom: 1.5em;
+	margin-left: 5%;
+}
+
+.winterItems h2 {
+	margin-bottom: 1em;
 }
 
 .winterItems ul {
@@ -101,7 +119,7 @@ header p:first-child {
 	gap: 1em;
 	overflow: scroll;
 	padding: 1em;
-
+	padding-bottom: 2em;
 }
 
 .winterItems ul li {
@@ -123,6 +141,7 @@ header p:first-child {
 
 .winter-selectie {
 	position: relative;
+	background-color: var(--standaardUniek);
 }
 
 .winter-selectie img {
@@ -130,16 +149,24 @@ header p:first-child {
 }
 
 .winter-selectie div {
-	position: absolute;
+	position: sticky;
 	color: var(--standaardNormaal);
-	transform: translate(-50%, -50%);
-	top: 50%;
-	left: 50%;
+	top: 33em;
 	text-align: center;
 }
 
 .geselecteerdeItems {
 	background-color: var(--standaardUniek);
+}
+
+.geselecteerdeItems div {
+	padding-top: 2em;
+	padding-bottom: 1.5em;
+	margin-left: 5%;
+}
+
+.geselecteerdeItems div h2 {
+	margin-bottom: 1em;
 }
 
 .geselecteerdeItems ul {
@@ -153,6 +180,7 @@ header p:first-child {
 	flex-direction: column;
 	max-width: 30vw;
 	gap: 0.5em;
+	margin-bottom: 2em;
 }
 
 .geselecteerdeItems li img {
@@ -172,27 +200,135 @@ header p:first-child {
 	margin: 0.5em;
 }
 
+.samengesteldeOutfits ul li {
+	position: relative;
+}
+
+.samengesteldeOutfits ul {
+	display: flex;
+	gap: 1em;
+	list-style-type: none;
+	overflow: scroll;
+	padding-bottom: 2em;
+}
+
+.samengesteldeOutfits li p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: var(--standaardNormaal);
+	padding: 1em;
+}
+
+.samengesteldeOutfits p:hover {
+	padding-right: 5em;
+	transition: 0.5s;
+}
+
+.samengesteldeOutfits img {
+	max-width: 20em;
+}
+
+.samengesteldeOutfits div {
+	padding-top: 2em;
+	padding-bottom: 1.5em;
+	margin-left: 5%;
+}
+
+.samengesteldeOutfits div h2 {
+	margin-bottom: 1em;
+}
+
+.inspiratie {
+	background-color: var(--standaardUniek);
+}
+
+.inspiratie ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	gap: 1em;
+	overflow: scroll;
+}
+
+.inspiratie li {
+	display: flex;
+	flex-direction: column;
+	max-width: 21em;
+}
+
+.inspiratie li img {
+	order: -2;
+}
+
+.inspiratie img {
+	max-width: 20em;
+}
+
+.inspiratie img:hover {
+	max-width: 21em;
+	transition: 0.3s;
+}
+
+.inspiratie div {
+	padding-top: 2em;
+	padding-bottom: 1.5em;
+	margin-left: 5%;
+}
+
+.inspiratie div h2 {
+	margin-bottom: 1em;
+}
+
 footer {
 	background-color: var(--standaardUniek);
 }
 
+footer ul {
+	list-style-type: none;
+}
+
 details {
-	margin-left: 1em;
+	margin-left: 2em;
 	margin-top: 0.5em;
 	margin-bottom: 0.3em;
 }
 
-details {
+footer details:first-of-type summary {
 	padding-top: 4em;
 }
 
 hr {
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-left: 2em;
+	margin-right: 2em;
 	margin-bottom: 0.5em;
+	opacity: 30%;
+}
+
+.logos {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	gap: 1em;
+	padding-top: 2em;
+}
+
+.logos img {
+	max-height: 4vw;
+	max-width: 12vw;
 }
 
 :root {
 	--color-text:#111;
 	--color-background:#eee;
+}
+
+/* Extra responsive code */
+
+@media only screen and (max-width: 400px) {
+	.heren-navigatie ul {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
 }

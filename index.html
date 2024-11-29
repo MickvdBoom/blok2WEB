@@ -8,9 +8,10 @@
 	<link rel="icon" type="images/svg+xml" href="images/bijenkorf-logo.jpg">
 	<title>Herenmode • de Bijenkorf • Gratis retourneren</title>
 </head>
+<body>
 <header>
 	<p>Nu besteld, morgen in huis</p>
-	<section class="header">
+	<div class="header">
 		<button aria-hidden="true"><img src="images/hamBurger.png" alt="" /></button>
 		<nav id="hamburgerMenu">
 			<button aria-hidden="true"><img src="images/sluiten.png" alt="" /></button>
@@ -31,15 +32,17 @@
 			</ul>
 		</nav>
 		<img src="images/basisLogo.png" alt="">
-		<form>
-			<input type="text" placeholder="Waar ben je naar op zoek?">
-		</form>
-		<img src="images/profiel.png" alt="profiel">
-		<img src="images/favorieten.png" alt="favorieten">
-		<img src="images/winkelwagen.png" alt="winkelmandje">
-	</section>
+		<div>
+			<img src="images/profiel.png" alt="profiel">
+			<img src="images/favorieten.png" alt="favorieten">
+			<img src="images/winkelwagen.png" alt="winkelmandje">
+		</div>
+	</div>
+	<form>
+		<input type="search" placeholder="Waar ben je naar op zoek?">
+	</form>
 </header>
-<body>
+<main>
 	<section class="heren-navigatie">
 		<h1>Ontdek de heren categorieën</h1>
 		<ul>
@@ -61,8 +64,10 @@
 		<img src="images/onze-feestselectie.webp" alt="">
 	</section>
 	<section class="winterItems">
-		<h2>De selecties van onze editors</h2>
-		<a href="#">Bekijk alle inspiratie</a>
+		<div>
+			<h2>De selecties van onze editors</h2>
+			<a href="#">Bekijk alle inspiratie</a>
+		</div>
 		<ul>
 			<li><a href="#">Winterproof jassen</a><img src="images/winterproof-jassen.webp" alt=""></li>
 			<li><a href="#">Winterschoenen en sneakers</a><img src="images/winterschoenen-sneakers.webp" alt=""></li>
@@ -70,8 +75,10 @@
 		</ul>
 	</section>
 	<section class="geselecteerdeItems">
-		<h2>Mick, Speciaal voor jou geselecteerd</h2>
-		<p>Gebaseerd op je laatst bekeken producten</p>
+		<div>
+			<h2>Mick, Speciaal voor jou geselecteerd</h2>
+			<p>Gebaseerd op je laatst bekeken producten</p>
+		</div>
 		<ul>
 			<li>
 				<h3>Lacoste</h3>
@@ -92,43 +99,91 @@
 				<img src="images/Parajumpers-shirt.png" alt="">
 			</li>
 			<li>
-			<h3>Ralph Lauren</h3>
-			<p>T-shirt met logo</p>
-			<p>54,95</p>
-			<img src="images/RalphLauren-shirt.png" alt="">
+				<h3>Ralph Lauren</h3>
+				<p>T-shirt met logo</p>
+				<p>54,95</p>
+				<img src="images/RalphLauren-shirt.png" alt="">
+			</li>
+			<li>
+				<h3>Hugo boss</h3>
+				<p>Momentum fijngebreide sweater in wolblend</p>
+				<p>139,95</p>
+				<img src="images/hugoBoss-trui.png" alt="">
 			</li>
 		</ul>
-
-		<h2>Nieuwe collectie</h2>
-		<a href="#">Bekijk de collectie</a>
-		<p>Nieuwe collectie</p>
-		<p>Björn Borg</p>
-		<p>Boxershorts met logoband in 3-pack</p>
-		<p>34,95</p>
-		<p>Adviesprijs 42,95</p>
-		<p>Nieuwe collectie</p>
-		<p>Marc O'Polo</p>
-		<p>Ribgebreide schipperstrui met logo</p>
-		<p>149,95</p>
-	</section>
-	<section class="samengesteldeOutfits">
-		<h2>Wat vind je van deze outfits?</h2>
-		<p>Samengesteld met de meest populaire items</p>
+		<div>
+			<h2>Nieuwe collectie</h2>
+			<a href="#">Bekijk de collectie</a>
+		</div>
 		<ul>
-			<li><p>3 artikelen</p></li>
-			<li><p>3 artikelen</p></li>
-			<li><p>3 artikelen</p></li>
+			<li>
+				<h3>Lacoste</h3>
+				<p>T-shirt met logoborduring</p>
+				<p>75,-</p>
+				<img src="images/lacoste-shirt.png" alt="">
+			</li>
+			<li>
+				<h3>AMI Paris</h3>
+				<p>T-shirt van biologisch katoen met logo</p>
+				<p>150,-</p>
+				<img src="images/AMIParis-shirt.png" alt="">
+			</li>
+			<li>
+				<h3>Parajumpers</h3>
+				<p>Mojave T-shirt met borstzak en logo</p>
+				<p>120,-</p>
+				<img src="images/Parajumpers-shirt.png" alt="">
+			</li>
+			<li>
+				<h3>Ralph Lauren</h3>
+				<p>T-shirt met logo</p>
+				<p>54,95</p>
+				<img src="images/RalphLauren-shirt.png" alt="">
+			</li>
+			<li>
+				<h3>Hugo boss</h3>
+				<p>Momentum fijngebreide sweater in wolblend</p>
+				<p>139,95</p>
+				<img src="images/hugoBoss-trui.png" alt="">
+			</li>
 		</ul>
 	</section>
-	<section>
-		<h2>Inspiratie</h2>
-		<a href="#">Bekijk alle inspiratie</a>
-		<p>Stijlgids</p>
-		<p>Designer investeringsstukken voor je verlanglijst</p>
-		<p>7 NOV '24</p>
-		<p>Musthaves</p>
-		<p>Feestelijke kersttruien</p>
-		<p>7 NOV '24</p>
+	<section class="samengesteldeOutfits">
+		<div>
+			<h2>Wat vind je van deze outfits?</h2>
+			<p>Samengesteld met de meest populaire items</p>
+		</div>
+		<ul>
+			<li><p>3 artikelen</p><img src="images/outfit-1.webp" alt=""></li>
+			<li><p>3 artikelen</p><img src="images/outfit-2.webp" alt=""></li>
+			<li><p>3 artikelen</p><img src="images/outfit-3.webp" alt=""></li>
+		</ul>
+	</section>
+	<section class="inspiratie">
+		<div>
+			<h2>Inspiratie</h2>
+			<a href="#">Bekijk alle inspiratie</a>
+		</div>
+		<ul>
+			<li>
+				<p>Stijlgids</p>
+				<h3>Designer investeringsstukken voor je verlanglijst</h3>
+				<p>7 NOV '24</p>
+				<img src="images/inspiratie-1.webp" alt="">
+			</li>
+			<li>
+				<p>Musthaves</p>
+				<h3>Feestelijke kersttruien</h3>
+				<p>7 NOV '24</p>
+				<img src="images/inspiratie-2.webp" alt="">
+			</li>
+			<li>
+				<p>Favorieten</p>
+				<h3>Top 10 tijdloze horloges</h3>
+				<p>7 NOV '24</p>
+				<img src="images/inspiratie-3.webp" alt="">
+			</li>
+		</ul>
 	</section>
 	<section>
 		<h2>Populaire merken</h2>
@@ -159,8 +214,17 @@
 	<p><a href="#">Neem contact op</a> met onze klantenservice</p>
 	<p>Elke dag bereikbaar via chat en social tussen 08:00 - 22:00, Maandag tot en met Zaterdag telefonisch bereikbaar tussen 09:00 - 18:00.</p>
 	<script defer src="scripts/script.js"></script>
-</body>
+</main>
 <footer>
+	<ul class="logos">
+		<li><img src="images/ideal-logo.png" alt="logo van ideal"></li>
+		<li><img src="images/mastercard-logo.png" alt="logo van mastercard"></li>
+		<li><img src="images/visa-logo.png" alt="logo van visa"></li>
+		<li><img src="images/paypal-logo.png" alt="logo van paypal"></li>
+		<li><img src="images/americanExpress-logo.png" alt="logo van american express"></li>
+		<li><img src="images/postNL-logo.png" alt="logo van post NL"></li>
+		<li><img src="images/dhl-logo.png" alt="logo van dhl"></li>
+	</ul>
 	<details>
 		<summary>klantenservice</summary>
 		<ul>
@@ -230,4 +294,5 @@
 		<li><a href="#">Algemene voorwaarden</a></li>
 	</ul>
 </footer>
+</body>
 </html>

@@ -1,4 +1,4 @@
-var openButton = document.querySelector("header section button");
+var openButton = document.querySelector("header div button");
 var sluitButton = document.querySelector("nav button");
 var deNav = document.getElementById("hamburgerMenu")
 
@@ -13,4 +13,4 @@ function openMenu() {
 function sluitMenu() {  
     // console.log("menu is gesloten")
      deNav.classList.remove("toonMenu");
- }
+}
