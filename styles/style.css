@@ -142,8 +142,25 @@ header p:first-child {
 	background-color: var(--standaardUniek);
 }
 
+.geselecteerdeItems ul {
+	display: flex;
+	list-style-type: none;
+	overflow: scroll;
+}
+
+.geselecteerdeItems li {
+	display: flex;
+	flex-direction: column;
+	max-width: 30vw;
+	gap: 0.5em;
+}
+
+.geselecteerdeItems li img {
+	order: -2;
+}
+
 .geselecteerdeItems img {
-	max-width: 5em;
+	margin-right: 1em;
 }
 
 #hamburgerMenu ul {
