@@ -21,11 +21,11 @@ function sluitMenu() {
 }
 
 function openTweede() {
-    // console.log("hooiii")
+    // console.log("nav 2 is open")
     navTwee.classList.add("toonMenuTwee")
 }
 
 function sluitTweede() {
-    // console.log("kaaaasss")
+    // console.log("nav 2 is dicht")
     navTwee.classList.remove("toonMenuTwee");
 }
