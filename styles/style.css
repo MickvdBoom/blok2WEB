@@ -403,6 +403,17 @@ hr {
 	--color-background:#eee;
 }
 
+/* Code voor pagina 2 */
+
+.product img {
+	max-width: 25vw;
+}
+
+.product {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
 /* Extra responsive code */
 
 @media only screen and (max-width: 950px) {
