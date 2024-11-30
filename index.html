@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">	
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="images/svg+xml" href="images/bijenkorf-logo.jpg">
+	<script defer src="scripts/script.js"></script>
 	<title>Herenmode • de Bijenkorf • Gratis retourneren</title>
 </head>
 <body>
@@ -18,7 +19,15 @@
 			<h2>Welkom</h2>
 			<ul>
 				<li><a href="#">Dames</a></li>
-				<li><a href="#">Heren</a></li>
+				<li class="knopTwee">
+						<a href="#">Heren</a>
+						<ul class="navTwee">
+							<li><button aria-hidden="true"><img src="images/sluiten.png" alt="" /></button></li>
+							<li><a href="#">Bijzonder voordeel</a></li>
+							<li><a href="#">Inspiratie</a></li>
+							<li><a href="#">Designer</a></li>
+						</ul>
+				</li>
 				<li><a href="#">Kinderen</a></li>
 				<li><a href="#">Cosmetica</a></li>
 				<li><a href="#">Wonen & vrije tijd</a></li>
@@ -194,32 +203,68 @@
 			<li><button><img src="images/cpCompanyMerk.png" alt="logo van CP Company"></button></li>
 		</ul>
 	</section>
-	<section>
-		<h2>24 nieuwe artikelen van populaire merken</h2>
-		<a href="#">Bekijk alle 24 artikelen</a>
-		<p>Nieuwe collectie</p>
-		<p>Ralph Lauren</p>
-		<p>Polo Ralph Lauren</p>
-		<p>Traveler zwemshorts met streeppatroon</p>
-		<p>119,-</p>
-		<p>Nieuwe collectie</p>
-		<p>Perfuomo</p>
-		<p>Longsleeve van merino wol</p>
-		<p>99,95</p>
+	<section class="geselecteerdeItems">
+		<div>
+			<h2>24 nieuwe artikelen van populaire merken</h2>
+			<a href="#">Bekijk alle 24 artikelen</a>
+		</div>
+		<ul>
+			<li>
+				<h3>Lacoste</h3>
+				<p>T-shirt met logoborduring</p>
+				<p>75,-</p>
+				<img src="images/lacoste-shirt.png" alt="">
+			</li>
+			<li>
+				<h3>AMI Paris</h3>
+				<p>T-shirt van biologisch katoen met logo</p>
+				<p>150,-</p>
+				<img src="images/AMIParis-shirt.png" alt="">
+			</li>
+			<li>
+				<h3>Parajumpers</h3>
+				<p>Mojave T-shirt met borstzak en logo</p>
+				<p>120,-</p>
+				<img src="images/Parajumpers-shirt.png" alt="">
+			</li>
+			<li>
+				<h3>Ralph Lauren</h3>
+				<p>T-shirt met logo</p>
+				<p>54,95</p>
+				<img src="images/RalphLauren-shirt.png" alt="">
+			</li>
+			<li>
+				<h3>Hugo boss</h3>
+				<p>Momentum fijngebreide sweater in wolblend</p>
+				<p>139,95</p>
+				<img src="images/hugoBoss-trui.png" alt="">
+			</li>
+		</ul>
 	</section>
-	<p>Gratis bezorging vanaf 50,- voor members<p>
-	<p>Nu besteld, morgen in huis</p>
-	<p>Gratis retourneren, bedenktijd van 3o dagen</p>
-	<h3>Regel het zelf</h3>
-	<a href="#">Volg je bestelling</a>
-	<a href="#">retourneer een artikel</a>
-	<h3>Veelgestelde vragen</h3>
-	<a href="#">Bekijk veelgestelde vragen</a>
-	<a href="#">Check het saldo van je cadeaukaart</a>
-	<h3>Heb je hulp nodig?</h3>
-	<p><a href="#">Neem contact op</a> met onze klantenservice</p>
-	<p>Elke dag bereikbaar via chat en social tussen 08:00 - 22:00, Maandag tot en met Zaterdag telefonisch bereikbaar tussen 09:00 - 18:00.</p>
-	<script defer src="scripts/script.js"></script>
+	<ul class="gratisService">
+		<li><strong>Gratis bezorging vanaf 50,- voor members</strong><img src="images/checkIcon.png" alt="vink icoon"></li>
+		<li><strong>Nu besteld, morgen in huis</strong><img src="images/checkIcon.png" alt="vink icoon"></li>
+		<li><strong>Gratis retourneren, bedenktijd van 30 dagen</strong><img src="images/checkIcon.png" alt="vink icoon"></li>
+	</ul>
+	<section class="problemenRegelen">
+		<ul>
+			<li>
+				<h3>Regel het zelf</h3>
+				<a href="#">Volg je bestelling</a>
+				<a href="#">retourneer een artikel</a>
+			</li>
+			<li>
+				<h3>Veelgestelde vragen</h3>
+				<a href="#">Bekijk veelgestelde vragen</a>
+				<a href="#">Check het saldo van je cadeaukaart</a>
+			</li>
+			<li>
+				<h3>Heb je hulp nodig?</h3>
+				<p><a href="#">Neem contact op</a> met onze klantenservice</p>
+				<p>Elke dag bereikbaar via chat en social tussen 08:00 - 22:00, Maandag tot en met Zaterdag telefonisch bereikbaar tussen 09:00 - 18:00.</p>
+			</li>
+		</ul>
+	</section>
 </main>
 <footer>
 	<ul class="logos">

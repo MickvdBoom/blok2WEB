@@ -28,6 +28,18 @@ nav {
 	z-index: 2;
 }
 
+.navTwee {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	translate: -200% 0%;
+	transition: translate .3s;
+	background-color: var(--standaardUniek);
+	z-index: 2;
+}
+
 input {
 	border-top: 2px black;
 	border-left: 2px black;
@@ -39,16 +51,25 @@ input {
 	translate: 0% 0;
 }
 
+.toonMenuTwee {
+	translate: -10% -5%;
+}
+
 header button {
 	order: -1;
 }
 
 input {
 	width: 15em;
+	margin-left: 37vw;
 }
 
 a {
 	color: black;
+}
+
+h1 {
+	margin-left: 0.3em;
 }
 
 .header {
@@ -99,13 +120,13 @@ header p:first-child {
 }
 
 .heren-navigatie ul li img {
-	width: 10em;
+	width: 15.5vw;
 }
 
 .winterItems div {
 	padding-top: 2em;
 	padding-bottom: 1.5em;
-	margin-left: 5%;
+	margin-left: 2.5em;
 }
 
 .winterItems h2 {
@@ -136,7 +157,7 @@ header p:first-child {
 }
 
 .winterItems ul li img {
-	width: 20em;
+	width: 30vw;
 }
 
 .winter-selectie {
@@ -151,7 +172,7 @@ header p:first-child {
 .winter-selectie div {
 	position: sticky;
 	color: var(--standaardNormaal);
-	top: 33em;
+	top: 37em;
 	text-align: center;
 }
 
@@ -162,7 +183,7 @@ header p:first-child {
 .geselecteerdeItems div {
 	padding-top: 2em;
 	padding-bottom: 1.5em;
-	margin-left: 5%;
+	margin-left: 2.5em;
 }
 
 .geselecteerdeItems div h2 {
@@ -178,7 +199,7 @@ header p:first-child {
 .geselecteerdeItems li {
 	display: flex;
 	flex-direction: column;
-	max-width: 30vw;
+	max-width: 14em;
 	gap: 0.5em;
 	margin-bottom: 2em;
 }
@@ -232,7 +253,7 @@ header p:first-child {
 .samengesteldeOutfits div {
 	padding-top: 2em;
 	padding-bottom: 1.5em;
-	margin-left: 5%;
+	margin-left: 2.5em;
 }
 
 .samengesteldeOutfits div h2 {
@@ -241,6 +262,7 @@ header p:first-child {
 
 .inspiratie {
 	background-color: var(--standaardUniek);
+	padding-bottom: 2em;
 }
 
 .inspiratie ul {
@@ -273,11 +295,15 @@ header p:first-child {
 .inspiratie div {
 	padding-top: 2em;
 	padding-bottom: 1.5em;
-	margin-left: 5%;
+	margin-left: 2.5em;
 }
 
 .inspiratie div h2 {
 	margin-bottom: 1em;
+}
+
+.populaireMerken {
+	margin-top: 2em;
 }
 
 .populaireMerken ul {
@@ -297,8 +323,45 @@ header p:first-child {
 	border-radius: 100px;
 }
 
+.gratisService {
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+	gap: 2em;
+	background-color: var(--standaardUniek);
+	padding-bottom: 2em;
+}
+
+.gratisService li {
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 1em;
+}
+
+.gratisService img {
+	max-width: 2em;
+	max-height: 2em;
+}
+
+.problemenRegelen ul {
+	display: flex;
+	list-style-type: none;
+	gap: 1em;
+	justify-content: space-around;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.problemenRegelen li {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	max-width: 30%;
+}
+
 footer {
 	background-color: var(--standaardUniek);
+	padding-bottom: 5em;
 }
 
 footer ul {
@@ -342,10 +405,41 @@ hr {
 
 /* Extra responsive code */
 
+@media only screen and (max-width: 950px) {
+	.heren-navigatie ul li img {
+		width: 10em;
+	}
+}
+
 @media only screen and (max-width: 400px) {
 	.heren-navigatie ul {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
+	}
+	.inspiratie img {
+		max-width: 15em;
+	}
+	.problemenRegelen ul {
+		display: flex;
+		flex-direction: column;
+	}
+	.problemenRegelen li {
+		max-width: 90%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.winterItems ul li img {
+		width: 15em;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.gratisService {
+		display: flex;
+		flex-direction: column;
+		max-width: 100%;
+		align-items: start;
 	}
 }
