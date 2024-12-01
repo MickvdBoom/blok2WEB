@@ -176,6 +176,11 @@ header p:first-child {
 	text-align: center;
 }
 
+.winter-selectie a {
+	background-color: var(--standaardNormaal);
+	text-decoration: none;
+}
+
 .geselecteerdeItems {
 	background-color: var(--standaardUniek);
 }
@@ -412,6 +417,38 @@ hr {
 .product {
 	display: flex;
 	flex-direction: row-reverse;
+}
+
+.product p:first-of-type {
+	color: orange;
+}
+
+.product ul {
+	list-style-type: none;
+}
+
+.product div:nth-of-type(2) {
+	padding-left: 2em;
+}
+
+.bekijkMeer {
+	text-align: center;
+}
+
+.bekijkMeer p {
+	margin: 0.5em;
+}
+
+.bekijkMeer ul {
+	display: flex;
+	list-style-type: none;
+	gap: 0.5em;
+	justify-content: center;
+}
+
+.bekijkMeer button {
+	background-color: transparent;
+	border-radius: 20px;
 }
 
 /* Extra responsive code */
