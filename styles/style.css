@@ -419,8 +419,17 @@ hr {
 
 /* Code voor pagina 2 */
 
-.product img {
-	max-width: 10vw;
+.fotos {
+	margin-bottom: 10em;
+}
+
+.product .fotos img {
+	max-width: 20em;
+	justify-self: center;
+}
+
+.product .knoppen img {
+	max-width: 5em;
 }
 
 .product {
@@ -428,12 +437,13 @@ hr {
 	flex-direction: row-reverse;
 }
 
-.product p:first-of-type {
+.product div > p:first-of-type {
 	color: orange;
 }
 
 .product ul {
 	list-style-type: none;
+	display: hidden;
 }
 
 .product div:nth-of-type(2) {
@@ -499,6 +509,10 @@ hr {
 		max-width: 100%;
 		align-items: start;
 	}
+	.product {
+		display: flex;
+		flex-direction: column-reverse;
+	}
 }
 
 /* Code carrousel */
@@ -531,11 +545,19 @@ hr {
 	--caroCarrouselAccentColor:#1b75b3;
 	  --caroCarrouselShadeColor:#ddd9;
   
+
 	position: relative;
 	overflow: hidden; /* om de linkbuttons te verbergen */
 	  outline:none;
+	  max-height: max-content;
+	  position: sticky;
+	  top: 0;
   }
   
+.caroCarrousel ul {
+	display: flex;
+}
+
   /* dark mode */
   @media (prefers-color-scheme: dark) {
 	.caroCarrousel {
@@ -545,13 +567,15 @@ hr {
   }
   
   
+  @media only screen and (max-width: 1200px) {
+
   /************************************/
   /* de carrousel elementen container */
   .caroCarrousel > ul {
-	margin: 0; padding: 0;
+	/* margin: 0; padding: 0; */
 	list-style: none;
 	  display: flex;
-	  
+
 	  /* handmatig scrollen is mogelijk */
 	  overflow: hidden;
 	  
@@ -713,3 +737,9 @@ hr {
   .caroCarrousel > a:focus {
 	color: var(--caroCarrouselAccentColor);
   }
+}
+
+.fotos {
+	margin-bottom: 6em;
+	justify-self: start;
+}
