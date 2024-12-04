@@ -419,17 +419,9 @@ hr {
 
 /* Code voor pagina 2 */
 
-.fotos {
-	margin-bottom: 10em;
-}
-
-.product .fotos img {
+.fotos img {
 	max-width: 20em;
 	justify-self: center;
-}
-
-.product .knoppen img {
-	max-width: 5em;
 }
 
 .product {
@@ -737,9 +729,21 @@ hr {
   .caroCarrousel > a:focus {
 	color: var(--caroCarrouselAccentColor);
   }
-}
 
-.fotos {
-	margin-bottom: 6em;
-	justify-self: start;
+	.fotos {
+		margin-bottom: 6em;
+		justify-self: start;
+	}
+	.fotos {
+		margin-bottom: 10em;
+	}
+	
+	.product .fotos img {
+		max-width: 20em;
+		justify-self: center;
+	}
+	
+	.product .knoppen img {
+		max-width: 5em;
+	}
 }
