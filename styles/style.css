@@ -429,6 +429,10 @@ hr {
 	flex-direction: row-reverse;
 }
 
+.product div {
+	min-width: 40vw;
+}
+
 .product div > p:first-of-type {
 	color: orange;
 }
@@ -505,6 +509,17 @@ hr {
 		display: flex;
 		flex-direction: column-reverse;
 	}
+	.caroCarrousel {
+		position: relative;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.caroCarrousel {
+		max-height: max-content;
+		position: sticky;
+		top: 0;
+	}
 }
 
 /* Code carrousel */
@@ -536,14 +551,9 @@ hr {
 	  --caroCarrouselMainColor:#333;
 	--caroCarrouselAccentColor:#1b75b3;
 	  --caroCarrouselShadeColor:#ddd9;
-  
 
-	position: relative;
 	overflow: hidden; /* om de linkbuttons te verbergen */
 	  outline:none;
-	  max-height: max-content;
-	  position: sticky;
-	  top: 0;
   }
   
 .caroCarrousel ul {
@@ -559,7 +569,7 @@ hr {
   }
   
   
-  @media only screen and (max-width: 1200px) {
+  /* @media only screen and (max-width: 1200px) { */
 
   /************************************/
   /* de carrousel elementen container */
@@ -746,4 +756,4 @@ hr {
 	.product .knoppen img {
 		max-width: 5em;
 	}
-}
+/* } */
