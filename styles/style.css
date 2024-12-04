@@ -431,6 +431,7 @@ hr {
 
 .product div {
 	min-width: 40vw;
+	margin-right: 2em;
 }
 
 .product div > p:first-of-type {
