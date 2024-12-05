@@ -242,6 +242,21 @@ header p:first-child {
 #hamburgerMenu button {
 	margin-top: 3em;
 	margin-left: 3em;
+	margin-bottom: 2em;
+}
+
+#hamburgerMenu h2 {
+	margin-left: 2em;
+}
+
+#hamburgerMenu a {
+	text-decoration: none;
+}
+
+#hamburgerMenu > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .samengesteldeOutfits ul li {
@@ -476,7 +491,7 @@ main > a {
 }
 
 .omschrijving ul:first-of-type button {
-	background-color: none;
+	background-color: transparent;
 	border: none;
 }
 
@@ -736,9 +751,15 @@ main > a {
 
   /* dark mode */
   @media (prefers-color-scheme: dark) {
-	.caroCarrousel {
-	  --caroCarrouselMainColor:#ccc;
-	  --caroCarrouselShadeColor:#4449;
+	header, main, footer {
+		background-color: #3C3C3C;
+		color: white;
+	}
+	.bekijkMeer, .caroCarrousel, .fotos, .geselecteerdeItems, .geselecteerdeItemsTwee, .gratisService, .header, .heren-navigatie, .inspiratie, .knoppen, .logos, .navTwee, .omschrijving, .populaireMerken, .problemenRegelen, .product, .samengesteldeOutfits, .toonMenu, .toonMenuTwee, .winter-selectie, .winterItems {
+		background-color: #3C3C3C;
+	}
+	a {
+		color: white;
 	}
   }
   
