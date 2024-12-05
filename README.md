@@ -269,26 +269,14 @@ Opmerkingen color contrast
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  Ik heb een begin gemaakt aan mijn html, ik heb geprobeerd om alle elementen van de heren pagina alvast erin te zetten. Ook heb ik de breakdown schetsen gemaakt.
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Mijn html was nog niet perfect, zo had ik nog geen gebruik gemaakt van sections en waren sommige elementen niet juist of verkeerd om geplaatst.
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Maak sections aan, alles staat nu in 1 lange lijst
+  - Let goed op het verschil tussen knoppen en links
+  - Zet de images pas na de h1/2/3 en p, dit is beter voor de screenreader.
 
 </details>
 
@@ -302,26 +290,25 @@ Opmerkingen color contrast
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  Ik heb een begin gemaakt aan de css van mijn eerste pagina, ik ben al goed op weg alleen loop ik tegen een paar problemen aan waar ik vragen over ga stellen. De volgende vragen heb ik alvast gemaakt:
+  - Ik heb meerdere errors, onder andere met het translate element, wat moet ik hiermee doen
+  - Sommige foto's van de officiële site krijg ik niet gedownload, hoe doe ik dit het makkelijkst?
+  - Hoe plaats ik al mijn elementen op de juiste manier in een carousel die producten weergeeft? Flexbox of grid? En hoe krijg ik allesin 1 rij?
+  - Hoe kan ik mijn zoekbalk stylen? Ik kan hem niet selecteren in css.
+  - Ik wil in mijn footer bij details alleen de eerste selecteren, hoe doe ik dat?
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Ik heb op al mijn vragen antwoord gekregen, ik kreeg te horen dat ik goed op weg ben met mijn code en dat ik niet moet vergeten om de readme bij te houden. Dit zijn de antwoorden op de vragen die ik heb gesteld (op volgorde):
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Css is waarschijnlijk niet helemaal geupdate, het element translate werkt dus dit is gewoon goed.
+  - Door te inspecten kan je meestal je muis op de link houden en dan verschijnt een andere link waar je op kan klikken.
+  - Maak eeen unordered list en maak ieder product een listed item, vervolgens kan je deze UL in een row zetten met flexbox.
+  - Verander als eerst even input type naar search ipv text, vervolgens kan je in css input[type="search"] gebruiken.
+  - Gebruik footer details:first-of-type summary.
+
+Extra feedback:
+- Voor je hamburger menu in menu kan je in je LI weer een nieuwe UL aanmaken
+- Gebruik vw en vh voor een goede responsive site
 
 </details>
 
