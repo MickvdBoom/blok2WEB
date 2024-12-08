@@ -494,13 +494,16 @@ Tijdens het gesprek heb ik geleerd dat ik een media query zowel een min-width al
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/goed-voorbeeld1.png" width="375px" alt="top">
+  <img src="readme-images/goed-voorbeeld2.png" width="375px" alt="top">
+  <img src="readme-images/goed-voorbeeld3.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
+<img src="readme-images/slecht-voorbeeld1.png" width="375px" alt="top">
+<img src="readme-images/slecht-voorbeeld2.png" width="375px" alt="top">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 
