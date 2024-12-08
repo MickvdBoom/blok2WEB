@@ -515,8 +515,11 @@ Tijdens het gesprek heb ik geleerd dat ik een media query zowel een min-width al
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://codepen.io/shooft/pen/ZEpXmrg
+  2. https://www.w3schools.com/howto/howto_css_image_text.asp
+  3. https://www.w3schools.com/howto/howto_css_sticky_element.asp
+  4. https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/
+  5. https://codepen.io/shooft/pen/VwJXNEg
+  6. Ivo's prachtige uitleg
 
 </details>
