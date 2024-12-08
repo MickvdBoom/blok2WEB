@@ -336,26 +336,10 @@ Extra feedback:
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+Mijn code is al heel ver op weg, ik heb alles wat is gelukt van pagina 1 en 2 al af. Het enige waar ik momenteel nog problemen mee heb is met de foto's van het product op mijn productpagina. Als ik deze responsive wil maken moet ik 3 verschillende states maken. Bij de telefoon state staan de foto's met knoppen boven de omschrijving, bij smal laptop formaat staan de foto's met knoppen naast de omschrijving en bij breed laptop formaat staan de foto's allemaal weergegeven zonder knoppen met de omschrijving ernaast. Dit is mij nog niet gelukt aangezien ik met de media query mijn code overschrijf doordat ik meerdere dingen heb met een mid-width.
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+Tijdens het gesprek heb ik geleerd dat ik een media query zowel een min-width als een max-width kan geven tegelijkertijd. Ik heb vervolgens in mijn code 3 verschillende states gemaakt, een code met een max-width van 600px, een code tussen de 600px en 1100px en een code vanaf 1100px.
 
 </details>
 
