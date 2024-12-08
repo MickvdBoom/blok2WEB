@@ -493,18 +493,21 @@ Tijdens het gesprek heb ik geleerd dat ik een media query zowel een min-width al
 
   ### Dit ging goed/Heb ik geleerd: 
   <img src="readme-images/goed-voorbeeld1.png" width="375px" alt="top">
-  
+  Ik heb een heel duidelijk beeld gekregen van de werking van flexbox en hoe ik items het beste kan weergeven met een unordered list.
   <br>
   <img src="readme-images/goed-voorbeeld2.png" width="375px" alt="top">
-  
+  Ik heb veel gebruik gemaakt van de media query en een goede responsive site kunnen maken.
   <br>
   <img src="readme-images/goed-voorbeeld3.png" width="375px" alt="top">
+  Ik heb met de media query bepaalde elementen verborgen op laptop breedte.
 
 
   ### Dit was lastig/Is niet gelukt:
 <img src="readme-images/slecht-voorbeeld1.png" width="375px" alt="top">
+Bepaalde elementen in unordered lists kon ik helaas niet volledig aan de linker kant gealigned krijgen. Ik heb in mijn code veel verschillende mogelijkheden geprobeerd maar het is me niet gelukt om alles perfect na te maken zoals de bijenkorf het heeft.
+<br>
 <img src="readme-images/slecht-voorbeeld2.png" width="375px" alt="top">
-
+De herenpagina bevat een stuk tekst wat tijdelijk mee scrollt over de pagina en daarna weer stopt. Ik heb dit gedeeltelijk werkend gekregen alleen had ik het graag mooier willen maken wat helaas niet is gelukt. De tekst die over de foto heen gaat laat veel witruimte achter boven de foto.
 </details>
 
 
