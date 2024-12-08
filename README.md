@@ -520,6 +520,6 @@ Tijdens het gesprek heb ik geleerd dat ik een media query zowel een min-width al
   3. https://www.w3schools.com/howto/howto_css_sticky_element.asp
   4. https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/
   5. https://codepen.io/shooft/pen/VwJXNEg
-  6. Ivo's prachtige uitleg
+  6. Ivo's geweldige uitleg
 
 </details>
