@@ -487,8 +487,8 @@ Tijdens het gesprek heb ik geleerd dat ik een media query zowel een min-width al
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/eindresultaat-productpagina.png" width="375px" alt="uitomst opdracht 1">
   <img src="readme-images/eindresultaat-herenpagina.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eindresultaat-productpagina.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
